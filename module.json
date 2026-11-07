@@ -1,0 +1,20 @@
+{
+    "name": "school-transport",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.transport",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.people"
+    ],
+    "exposes": [
+        "Plugins\\SchoolTransport\\API\\Contracts\\SchoolTransportContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "School bus routes, trips, checkpoints, passengers, bus cards and boarding scans.",
+    "config": []
+}
